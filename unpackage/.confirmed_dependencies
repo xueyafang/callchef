@@ -1,0 +1,151 @@
+{
+  "main.html": {
+    "resources": [
+      "images/slider/3.jpg",
+      "images/slider/2.jpg",
+      "images/2.gif",
+      "images/2.jpg",
+      "images/1.gif",
+      "images/slider/1.jpg",
+      "fonts/mui.ttf",
+      "images/1.jpg",
+      "css/iconfont.css",
+      "images/slider/4.jpg",
+      "images/3.jpg",
+      "images/4.jpg",
+      "selectchef.html",
+      "orders.html"
+    ],
+    "refer": [
+      "selectchef.php",
+      "setting.html"
+    ]
+  },
+  "login.html": {
+    "resources": [
+      "js/app.js",
+      "js/mui.min.js",
+      "images/sinaweibo.png",
+      "css/mui.min.css",
+      "css/style.css",
+      "images/weixin.png",
+      "images/qq.png",
+      "js/mui.enterfocus.js",
+      "fonts/mui.ttf"
+    ],
+    "refer": [
+      "main.html",
+      "forget_password.html",
+      "reg.html",
+      "main.php"
+    ]
+  },
+  "setting.html": {
+    "resources": [
+      "images/bg.jpeg",
+      "images/user.png",
+      "libs/easymob-webim-sdk/easemob.im-1.0.5.js",
+      "libs/easymob-webim-sdk/json2.js",
+      "libs/easymob-webim-sdk/jquery-1.11.1.js",
+      "js/mui.locker.js",
+      "js/feedback.js",
+      "css/feedback-page.css",
+      "js/feedback-page.js",
+      "libs/easymob-webim-sdk/strophe-custom-2.0.0.js",
+      "orders.html",
+      "js/mui.view.js"
+    ],
+    "refer": [
+      "orders.html"
+    ]
+  },
+  "orders.html": {
+    "resources": [
+      "images/dingdan.gif",
+      "setting.html",
+      "selectchef.html"
+    ],
+    "refer": [
+      "setting.html",
+      "selectchef.html"
+    ]
+  },
+  "selectchef.html": {
+    "resources": [
+      "main.html",
+      "images/9.jpg",
+      "images/8.jpg",
+      "images/10.jpg",
+      "images/6.jpg",
+      "images/12.jpg",
+      "images/7.jpg",
+      "orders.html",
+      "map.html"
+    ],
+    "refer": [
+      "main.html",
+      "orders.html"
+    ]
+  },
+  "map.html": {
+    "resources": [
+      "selectchef.html",
+      "js/mui.min.js",
+      "css/mui.min.css"
+    ],
+    "refer": [
+      "selectchef.html"
+    ]
+  },
+  "selectchef.php": {
+    "refer": [
+      "map.html",
+      "main.html"
+    ],
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ]
+  },
+  "testajax.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "reg.html": {
+    "resources": [
+      "fonts/mui.ttf",
+      "js/app.js",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "css/style.css"
+    ],
+    "refer": [
+      "login.html"
+    ]
+  },
+  "map1.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css"
+    ]
+  },
+  "main.php": {
+    "resources": [
+      "images/slider/3.jpg",
+      "images/slider/2.jpg",
+      "images/2.gif",
+      "images/2.jpg",
+      "images/1.gif",
+      "images/slider/1.jpg",
+      "images/1.jpg",
+      "css/iconfont.css",
+      "images/slider/4.jpg",
+      "images/3.jpg",
+      "images/4.jpg"
+    ]
+  }
+}

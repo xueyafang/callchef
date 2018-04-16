@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<button type="button" id='btn1'>获取服务器的数据</button>	
+	</body>
+	<script src="js/mui.min.js"></script>
+	<script type="text/javascript">
+		mui.init();
+		mui.plusReady(function(){
+			document.getElementById('btn1').addEventListener('tap',function(){
+			mui.ajax({	
+					type:'get',
+					url:'http://192.168.1.32:80/chef/testmysql.php',
+					dataType:'json',
+					//data:{username:'username',password:'password'},
+					crossDomain:true,
+					success:function(msg){
+						//console.log(msg.length);
+						for(var i=0;i<msg.length;i++){
+							console.log('username:'+msg[i].username+'\t'+'password:'+msg[i].password+'\n');
+						}
+						
+//						console.toast(msg);
+					},
+					error:function(xhr,type,errorThrown){
+						//mui.toast(type);
+						
+						//mui.toast(type);
+						console.log(type);
+						console.log(xhr.responseText);
+						
+					}
+				});
+			})
+	})
+
+	</script>
+</html>
