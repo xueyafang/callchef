@@ -16,4 +16,4 @@
 ## 1.首页
 callchef/showImg/首页.png
 ## 2.厨师页
-callchef/showImg/厨师页.png
+![厨师页照片](https://github.com/xueyafang/callchef/blob/master/showImg/%E5%8E%A8%E5%B8%88%E9%A1%B5.png)
