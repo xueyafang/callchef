@@ -14,4 +14,6 @@
  
 ## 部分页面展示
 ## 1.首页
+callchef/showImg/首页.png
 ## 2.厨师页
+callchef/showImg/厨师页.png
